@@ -1,0 +1,37 @@
+uuid: 182765cb-7771-4b31-be99-4a4810c5ed1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_1
+    - paragraphs.paragraphs_type.contenido_en_2_columnas
+    - paragraphs.paragraphs_type.cta
+  module:
+    - entity_reference_revisions
+id: paragraph.contenido_en_2_columnas.field_card_1
+field_name: field_card_1
+entity_type: paragraph
+bundle: contenido_en_2_columnas
+label: 'Card 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      cta: cta
+    negate: 0
+    target_bundles_drag_drop:
+      contenido_en_2_columnas:
+        weight: 4
+        enabled: false
+      cta:
+        weight: 5
+        enabled: true
+      title_text_cta:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

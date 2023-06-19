@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.cta.field_button_style
     - field.field.paragraph.cta.field_color_de_fondo
     - field.field.paragraph.cta.field_link
     - field.field.paragraph.cta.field_texto_
@@ -11,19 +10,11 @@ dependencies:
     - paragraphs.paragraphs_type.cta
   module:
     - link
-    - options
 id: paragraph.cta.default
 targetEntityType: paragraph
 bundle: cta
 mode: default
 content:
-  field_button_style:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
   field_color_de_fondo:
     type: string
     label: above

@@ -1,0 +1,39 @@
+uuid: 7d497353-950d-4e83-a410-5155207d437d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cta_
+    - node.type.page
+    - paragraphs.paragraphs_type.contenido_en_2_columnas
+    - paragraphs.paragraphs_type.cta
+  module:
+    - entity_reference_revisions
+id: node.page.field_cta_
+field_name: field_cta_
+entity_type: node
+bundle: page
+label: Card-CTA
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      contenido_en_2_columnas: contenido_en_2_columnas
+      cta: cta
+    negate: 0
+    target_bundles_drag_drop:
+      contenido_en_2_columnas:
+        weight: 4
+        enabled: true
+      cta:
+        weight: 5
+        enabled: true
+      title_text_cta:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions
