@@ -1,0 +1,22 @@
+uuid: 30de4f44-7e3b-4641-8fbe-68f8aa0d4b43
+langcode: en
+status: true
+dependencies:
+  theme:
+    - lab3
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: lab3_primary_local_tasks
+theme: lab3
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

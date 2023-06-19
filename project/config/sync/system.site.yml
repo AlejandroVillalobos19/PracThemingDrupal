@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 42b3acd5-759c-4685-b577-9ff3e8515f53
-name: drupalSite
-mail: sr.scoth@gmail.com
+uuid: 14ac25f7-5b9b-4a45-9f92-4b44330681fc
+name: 'Práctica Theming'
+mail: alevvv2000@gmail.com
 slogan: ''
 page:
   403: ''

@@ -1,11 +1,13 @@
-uuid: b1ddfc46-6901-435f-8e85-64c6635c4612
+uuid: 283af39f-990a-4d36-8a7c-3f41683be85e
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_components
     - node.type.page
   module:
+    - entity_reference_revisions
     - text
     - user
 _core:
@@ -21,6 +23,15 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 100
+    region: content
+  field_components:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
     region: content
   links:
     weight: 101

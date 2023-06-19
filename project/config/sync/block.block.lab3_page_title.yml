@@ -1,0 +1,20 @@
+uuid: 1a151cb4-6c25-45c7-aaa1-097bf1e1ffb3
+langcode: en
+status: true
+dependencies:
+  theme:
+    - lab3
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: lab3_page_title
+theme: lab3
+region: breadcrumb
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
